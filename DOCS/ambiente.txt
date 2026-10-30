@@ -1,0 +1,17 @@
+COMANDOS INICIAS PARA INICIO DO PROJETO API SIDRA
+
+python -m venv .venv
+
+.\.venv\Scripts\Activate.ps1
+
+pip install requests
+
+pip freeze > requirements.txt
+
+API DE CONSUMO:
+
+https://apisidra.ibge.gov.br/values/t/8888/n1/all/v/12606/p/last%206/c544/129314
+
+COMANDO PARA COMPILAR:
+
+python -m SRC.main
